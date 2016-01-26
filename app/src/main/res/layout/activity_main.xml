@@ -26,46 +26,50 @@
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="7.3">
+            android:layout_weight="6">
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:id="@+id/imageButton"
                 android:src="@drawable/contactos_boton"
                 android:background="@drawable/contactos_boton"
-                />
+                android:layout_weight="1" />
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:id="@+id/imageButton2"
                 android:src="@drawable/mi_perfil_boton"
                 android:background="@drawable/mi_perfil_boton"
+                android:layout_weight="1"
                 android:layout_marginLeft="1dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:id="@+id/imageButton3"
                 android:src="@drawable/cmon_boton"
                 android:background="@drawable/cmon_boton"
+                android:layout_weight="1"
                 android:layout_marginLeft="1dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:id="@+id/imageButton4"
                 android:src="@drawable/favoritos_boton"
                 android:background="@drawable/favoritos_boton"
-                android:layout_marginLeft="1dp" />
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:id="@+id/imageButton5"
                 android:src="@drawable/ajustes_boton"
                 android:background="@drawable/ajustes_boton"
-                android:layout_marginLeft="1dp" />
+                android:layout_weight="1" />
 
         </LinearLayout>
 
