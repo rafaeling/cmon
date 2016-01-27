@@ -45,7 +45,9 @@
                 android:src="@drawable/mi_perfil_boton"
                 android:background="@drawable/mi_perfil_boton"
                 android:layout_weight="1"
-                android:layout_marginLeft="1dp" />
+                android:layout_marginLeft="1dp"
+                android:onClick="Perfil"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
