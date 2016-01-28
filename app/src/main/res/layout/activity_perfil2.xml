@@ -59,21 +59,11 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageButton8"
+                    android:id="@+id/chilaut"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/editar_preferencias"
-                    android:onClick="Perfil2"
+                    android:background="@drawable/chilaut_boton_on"
+                    android:onClick="Chilaut"
                     />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.2">
-
-
             </LinearLayout>
 
 
@@ -86,9 +76,11 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageButton7"
+                    android:id="@+id/compras"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/datos_personales" />
+                    android:background="@drawable/compras_boton_on"
+                    android:onClick="Compras"
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -97,8 +89,121 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
 
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/deportes"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/deportes_boton_on"
+                    android:onClick="Deportes"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/espectaculos"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/espectaculos_boton_on"
+                    android:onClick="Espectaculos"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/restaurante"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/restaurante_boton_on"
+                    android:onClick="Restaurante"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tapear"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/tapear_boton_on"
+                    android:onClick="Tapear"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/monumentos"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/monumentos_boton_on"
+                    android:onClick="Monumentos"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/museos"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/museos_boton_on"
+                    android:onClick="Museos"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/musica"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/musica_boton_on"
+                    android:onClick="Musica"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
 
             </LinearLayout>
+
 
         </LinearLayout>
 
