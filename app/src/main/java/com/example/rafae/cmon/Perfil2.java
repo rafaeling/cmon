@@ -22,7 +22,6 @@ public class Perfil2 extends ActionBarActivity {
 
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +33,7 @@ public class Perfil2 extends ActionBarActivity {
         Intent i = new Intent(this, Perfil2.class);
         startActivity(i);
     }
+
 
 
     public void Chilaut(View view)
