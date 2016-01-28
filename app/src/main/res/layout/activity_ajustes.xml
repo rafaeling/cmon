@@ -29,7 +29,7 @@
                     android:layout_height="fill_parent"
                     android:id="@+id/imageView"
                     android:layout_weight="1"
-                    android:background="@drawable/mi_perfil_bar" />
+                    android:background="@drawable/ajustes_action_bar" />
 
             </LinearLayout>
         </LinearLayout>
@@ -56,14 +56,6 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageButton8"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@drawable/editar_preferencias"
-                    android:onClick="Perfil2"
-                    />
             </LinearLayout>
 
 
@@ -71,7 +63,7 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="1.2">
+                android:layout_weight="1">
 
 
             </LinearLayout>
@@ -83,13 +75,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageButton7"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@drawable/datos_personales"
-                    android:onClick="Perfil3" />
+
             </LinearLayout>
 
             <LinearLayout

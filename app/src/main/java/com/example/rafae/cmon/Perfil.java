@@ -19,4 +19,10 @@ public class Perfil extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void Perfil3(View view)
+    {
+        Intent i = new Intent(this, Perfil3.class);
+        startActivity(i);
+    }
+
 }

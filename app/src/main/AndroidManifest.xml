@@ -18,7 +18,12 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Contactos" />
         <activity android:name=".Perfil" />
-        <activity android:name=".Perfil2"></activity>
+        <activity android:name=".Perfil2" />
+        <activity android:name=".Perfil3" />
+        <activity android:name=".Perfil4" />
+        <activity android:name=".Perfil5" />
+        <activity android:name=".Favoritos" />
+        <activity android:name=".Ajustes"></activity>
     </application>
 
 </manifest>

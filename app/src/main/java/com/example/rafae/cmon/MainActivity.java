@@ -26,4 +26,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void Favoritos(View view)
+    {
+        Intent i = new Intent(this, Favoritos.class);
+        startActivity(i);
+    }
+
+
+    public void Ajustes(View view)
+    {
+        Intent i = new Intent(this, Ajustes.class);
+        startActivity(i);
+    }
 }

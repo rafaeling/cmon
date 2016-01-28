@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:background="@drawable/fondo_estandar">
+    android:orientation="vertical">
 
 
     <LinearLayout
@@ -29,9 +28,37 @@
                     android:layout_height="fill_parent"
                     android:id="@+id/imageView"
                     android:layout_weight="1"
-                    android:background="@drawable/mi_perfil_bar" />
+                    android:background="@drawable/favoritos_action_bar" />
+
+
 
             </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_contactos"
+                    android:hint="Search"
+                    android:textAlignment="center"
+                    android:textColor="#adacac" />
+            </LinearLayout>
+
         </LinearLayout>
 
 
@@ -42,63 +69,15 @@
             android:layout_weight="20">
 
             <LinearLayout
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1">
+                android:layout_height="fill_parent">
 
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1">
-
-                <ImageButton
+                <ListView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageButton8"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@drawable/editar_preferencias"
-                    android:onClick="Perfil2"
-                    />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.2">
-
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1">
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageButton7"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@drawable/datos_personales"
-                    android:onClick="Perfil3" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1">
-
-
+                    android:id="@+id/listView"
+                    android:layout_weight="1" />
             </LinearLayout>
 
         </LinearLayout>
@@ -131,7 +110,8 @@
                     android:src="@drawable/mi_perfil_boton"
                     android:background="@drawable/mi_perfil_boton"
                     android:layout_weight="1"
-                    android:layout_marginLeft="1dp" />
+                    android:layout_marginLeft="1dp"
+                    android:onClick="Perfil" />
 
                 <ImageButton
                     android:layout_width="wrap_content"
