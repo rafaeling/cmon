@@ -26,7 +26,12 @@
         <activity android:name=".Ajustes" />
         <activity android:name=".Notificaciones" />
         <activity android:name=".Ayuda" />
-        <activity android:name=".DarBaja"></activity>
+        <activity android:name=".DarBaja" />
+        <activity android:name=".Start1" />
+        <activity android:name=".Start2" />
+        <activity android:name=".Start3" />
+        <activity android:name=".Start4" />
+        <activity android:name=".Start5"></activity>
     </application>
 
 </manifest>

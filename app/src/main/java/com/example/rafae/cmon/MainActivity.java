@@ -38,4 +38,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Ajustes.class);
         startActivity(intent);
     }
+
+    public void Start1(View view)
+    {
+        Intent intent = new Intent(this, Start1.class);
+        startActivity(intent);
+    }
 }
