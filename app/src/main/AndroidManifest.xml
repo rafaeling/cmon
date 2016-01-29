@@ -23,7 +23,10 @@
         <activity android:name=".Perfil4" />
         <activity android:name=".Perfil5" />
         <activity android:name=".Favoritos" />
-        <activity android:name=".Ajustes"></activity>
+        <activity android:name=".Ajustes" />
+        <activity android:name=".Notificaciones" />
+        <activity android:name=".Ayuda" />
+        <activity android:name=".DarBaja"></activity>
     </application>
 
 </manifest>

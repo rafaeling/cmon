@@ -56,6 +56,13 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
 
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton12"
+                    android:background="@drawable/notificaciones_ajustes"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="Notificaciones" />
             </LinearLayout>
 
 
@@ -66,6 +73,13 @@
                 android:layout_weight="1">
 
 
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton11"
+                    android:background="@drawable/ayuda_ajustes"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="Ayuda" />
             </LinearLayout>
 
 
@@ -76,6 +90,13 @@
                 android:layout_weight="1">
 
 
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton13"
+                    android:background="@drawable/baja_ajustes"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="DarBaja" />
             </LinearLayout>
 
             <LinearLayout

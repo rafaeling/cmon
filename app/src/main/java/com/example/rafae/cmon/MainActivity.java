@@ -15,27 +15,27 @@ public class MainActivity extends AppCompatActivity {
 
     public void Contactos(View view)
     {
-        Intent i = new Intent(this, Contactos.class);
-        startActivity(i);
+        Intent intent = new Intent(this, Contactos.class);
+        startActivity(intent);
     }
 
 
     public void Perfil(View view)
     {
-        Intent i = new Intent(this, Perfil.class);
-        startActivity(i);
+        Intent intent = new Intent(this, Perfil.class);
+        startActivity(intent);
     }
 
     public void Favoritos(View view)
     {
-        Intent i = new Intent(this, Favoritos.class);
-        startActivity(i);
+        Intent intent = new Intent(this, Favoritos.class);
+        startActivity(intent);
     }
 
 
     public void Ajustes(View view)
     {
-        Intent i = new Intent(this, Ajustes.class);
-        startActivity(i);
+        Intent intent = new Intent(this, Ajustes.class);
+        startActivity(intent);
     }
 }
