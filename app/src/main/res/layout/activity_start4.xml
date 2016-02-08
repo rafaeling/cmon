@@ -7,6 +7,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rafae.cmon.Start4">
+    tools:context="com.example.rafae.cmon.Start4"
+    android:background="@drawable/question4_fondo">
 
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButton17"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="190dp"
+        android:background="#00ffffff"
+        android:layout_marginRight="10dp"
+        android:onClick="Pregunta5"/>
 </RelativeLayout>
