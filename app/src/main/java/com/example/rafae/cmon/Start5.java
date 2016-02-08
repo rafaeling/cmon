@@ -15,7 +15,7 @@ public class Start5 extends AppCompatActivity {
 
     public void Resultado(View view)
     {
-        Intent intent = new Intent(this, MainActivity.class); //Cambiar
+        Intent intent = new Intent(this, Result1.class); //Cambiar
         startActivity(intent);
     }
 }
