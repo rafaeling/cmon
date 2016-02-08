@@ -19,5 +19,5 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="230dp"
-        android:onClick="Resultado"/>
+        android:onClick="Result1"/>
 </RelativeLayout>

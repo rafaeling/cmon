@@ -32,7 +32,8 @@
         <activity android:name=".Start3" />
         <activity android:name=".Start4" />
         <activity android:name=".Start5" />
-        <activity android:name=".Result2"></activity>
+        <activity android:name=".Result1" />
+        <activity android:name=".Result2"/>
     </application>
 
 </manifest>
