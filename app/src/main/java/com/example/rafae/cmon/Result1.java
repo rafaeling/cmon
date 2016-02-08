@@ -39,6 +39,12 @@ public class Result1 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Inicio(View view)
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
     public void Result2(View view)
     {
         Intent intent = new Intent(this, Result2.class);

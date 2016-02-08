@@ -84,7 +84,8 @@
                 android:src="@drawable/cmon_boton"
                 android:background="@drawable/cmon_boton"
                 android:layout_weight="1"
-                android:layout_marginLeft="1dp" />
+                android:layout_marginLeft="1dp"
+                android:onClick="Inicio"/>
 
             <ImageButton
                 android:layout_width="wrap_content"

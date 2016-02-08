@@ -32,6 +32,11 @@ public class Result2 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Inicio(View view)
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 
     public void Ajustes(View view)
     {
