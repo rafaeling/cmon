@@ -13,7 +13,7 @@ public class Start5 extends AppCompatActivity {
         setContentView(R.layout.activity_start5);
     }
 
-    public void Resultado(View view)
+    public void Result1(View view)
     {
         Intent intent = new Intent(this, Result1.class); //Cambiar
         startActivity(intent);
